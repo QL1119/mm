@@ -1,0 +1,253 @@
+@charset "utf-8";
+.section {
+	position: relative;
+	overflow: hidden;
+}
+
+.box11 {
+	position: absolute;
+	background: url(img/bg11.png) no-repeat;
+	width: 100%;
+}
+
+.box12 {
+	position: absolute;
+	bottom: -392px;
+	transition: all 2s;
+	opacity: 0;
+	background: url(img/bg12.png) no-repeat;
+	width: 100%;
+	height: 392px;
+}
+
+.active .box12 {
+	bottom: 280px;
+	opacity: 1;
+}
+
+.box13 {
+	position: absolute;
+	bottom: -377px;
+	transition: all 2s;
+	opacity: 0;
+	background: url(img/bg13.png) no-repeat;
+	height: 377px;
+	width: 100%;
+}
+
+.active .box13 {
+	bottom: 130px;
+	opacity: 1;
+	transition-delay: 0.7s;
+}
+
+.box14 {
+	position: absolute;
+	top: 20%;
+	left: 32%;
+	width: 465px;
+	height: 79px;
+	transform: scale(0.5, 0.5);
+	transition: all 2s;
+	opacity: 0;
+	background: url(img/bg102.png) no-repeat;
+}
+
+.active .box14 {
+	transform: scale(1, 1);
+	transition-delay: 0.7s;
+	opacity: 1;
+}
+
+.box15 {
+	position: absolute;
+	top: -5%;
+	left: 35%;
+	width: 375px;
+	opacity: 0;
+	height: 26px;
+	transition: all 2s;
+	background: url(img/logo.png) no-repeat;
+}
+
+.active .box15 {
+	top: 8%;
+	opacity: 1;
+}
+
+.box16 {
+	position: absolute;
+	top: 33%;
+	left: 31%;
+	width: 512px;
+	height: 45px;
+	transform: scale(0.5, 0.5);
+	transition: all 2s;
+	opacity: 0;
+	background: url(img/t4.png) no-repeat;
+}
+
+.active .box16 {
+	transform: scale(1, 1);
+	transition-delay: 0.7s;
+	opacity: 1;
+}
+
+.box17 {
+	position: absolute;
+	top: 43%;
+	left: 28%;
+	width: 600px;
+	color: gainsboro;
+	opacity: 0;
+	height: 26px;
+	transition: all 2s;
+}
+
+.active .box17 {
+	opacity: 0.7;
+	transition-delay: 1.2s;
+}
+
+.box21 {
+	position: absolute;
+	left: 23%;
+	bottom: -325px;
+	transition: all 2s;
+	background: url(img/bg23.png) no-repeat;
+	width: 819px;
+	height: 325px;
+}
+
+.active .box21 {
+	bottom: 325px;
+}
+
+.box22 {
+	position: absolute;
+	left: -7%;
+	top: 30%;
+	transition: all 1.3s;
+	background: url(img/bg21.png) no-repeat;
+	width: 211px;
+	height: 299px;
+}
+
+.active .box22 {
+	left: 7%;
+	transition-delay: 1;
+}
+
+.box23 {
+	position: absolute;
+	left: 110%;
+	top: 30%;
+	transition: all 1.3s;
+	background: url(img/bg22.png) no-repeat;
+	width: 211px;
+	height: 299px;
+}
+
+.active .box23 {
+	left: 83%;
+	transition-delay: 1;
+}
+
+.box24 {
+	position: absolute;
+	top: 10%;
+	left: 32%;
+	width: 465px;
+	height: 79px;
+	transform: scale(0.5, 0.5);
+	background: url(img/t2.png) no-repeat;
+	transition: all 2s;
+	opacity: 0;
+}
+
+.active .box24 {
+	transform: scale(1.2, 1.2);
+	transition-delay: 0.7s;
+	opacity: 1;
+}
+
+.box25 {
+	position: absolute;
+	top: 20%;
+	left: 28%;
+	width: 600px;
+	color: gainsboro;
+	opacity: 0;
+	height: 26px;
+	transition: all 2s;
+}
+
+.active .box25 {
+	opacity: 1;
+	transition-delay: 1.2s;
+}
+
+.box31 {
+	position: absolute;
+	top: 8%;
+	left: 15%;
+	opacity: 0;
+	transition: all 1s;
+	background: url(img/bg31.png) no-repeat;
+	width: 892px;
+	height: 472px;
+}
+
+.active .box31 {
+	opacity: 1;
+	transition-delay: 1s;
+}
+
+.box32 {
+	position: absolute;
+	top: 29%;
+	left: 136%;
+	transition: all 1s;
+	background: url(img/bg33.png) no-repeat;
+	width: 441px;
+	height: 380px;
+}
+
+.active .box32 {
+	top: 29%;
+	left: 36%;
+	transition-delay: 0.7s;
+}
+
+.box33 {
+	position: absolute;
+	top: 30%;
+	left: 32%;
+	width: 465px;
+	height: 79px;
+	transform: scale(0.5, 0.5);
+	background: url(img/t3.png) no-repeat;
+	transition: all 2s;
+	opacity: 0;
+}
+
+.active .box33 {
+	transform: scale(1.2, 1.2);
+	transition-delay: 0.7s;
+	opacity: 1;
+}
+
+.box34 {
+	position: absolute;
+	top: 40%;
+	left: -28%;
+	width: 350px;
+	color: gainsboro;
+	height: 26px;
+	transition: all 2s;
+}
+
+.active .box34 {
+	left: 20%;
+	transition-delay: 0.7s;
+}
